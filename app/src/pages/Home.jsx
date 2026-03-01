@@ -1,11 +1,19 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Certifications from "../components/Certifications";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Skills />
+      <Projects />
+      <Certifications />
+      <Contact />
     </>
   );
 }
